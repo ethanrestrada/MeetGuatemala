@@ -5,30 +5,28 @@
 }
 
 body{
-    background: #c0c0c0;
-    height: 120vh;
+    font-family: 'Zen Dots', cursive;
 }
 
 header{
-    background-color: #011836;
-    font-family: 'Zen Dots', cursive;
-
+    background: linear-gradient(to right, #12416F, #668DB8);
 }
 
 .header__logo{
     color: #fff;
     margin: 0 22px;
-    width: 28%;
+    width: 30%;
+    min-width: 55%;
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo__img{
     border-radius: 20px;
     border-color: 1px #fff;
     border-style: solid;
+    margin-right: 1em;
 }
 
 .header__logo h3{ 
@@ -52,10 +50,11 @@ hr{
 }
 
 #header__navbar{
-    background: #00A99D;
+    background: #6789ac;
     margin-left: auto;
-    padding: 5px;
+    padding: 10px;
     text-align: right;
+    box-shadow: 0px 2px 2px 0px #00000098;
 }
 
 .navbar-fixed{
@@ -96,6 +95,61 @@ hr{
     height: 366px !important;
 }
 
+main{
+    background-image: url(../IMG/guate-img.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.main__contenedor-vacio{
+    height: 80vh; 
+    width: 100%;
+}
+
+.main__tittle-2{
+    color: #fffafa;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main__aboutus{
+    background-color: #F2F1F1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus__descripcion{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+    padding: 20px;
+}
+
+.aboutus__text{
+    background-color: #ece8e8;
+    height: 80%;
+    width: 50%;
+    margin-right: 5em;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.aboutus__descripcion img{
+    height: 80%;
+    width: 50%;
+}
+
+.main__guatemala{
+    background: #6789ac;
+    height: 100vh;
+    width: 100%;
+}
+
+
 @media screen and (max-width:700px){
 
     .header__menu-toggle{
@@ -107,7 +161,7 @@ hr{
         display: flex;
         align-items: center;
         width: 100%;
-        height:60px;
+        height: 60px;
         padding: 0 15px;
     }
 
@@ -119,13 +173,12 @@ hr{
         display: block;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        width: 65%;
     }
 
     .header__logo-responsive img{
         height: 32px;
         width: 32px;
+        margin-right: 1em;
     }
 
     .header__logo-responsive h3{
@@ -161,6 +214,46 @@ hr{
         border-bottom: 1px solid #000;
         width: 100%;
         padding: 0;
+    }
+    
+    main{
+        background-image: url(../IMG/responsive-bg.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .main__contenedor-vacio{
+        text-align: center;
+        font-size: 10px;
+        height: 100vh;
+    }
+
+    .main__aboutus{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+    .aboutus__descripcion{
+        padding: 0;
+    }
+
+    .aboutus__descripcion img{
+        display: none;
+    }
+
+    .aboutus__text{
+        text-align: center;
+        font-size: 15px;
+        height: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main__guatemala{
+        width: 90%;
+        margin: auto;
     }
 
 }

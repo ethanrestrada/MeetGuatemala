@@ -18,7 +18,7 @@ $(document).ready(function(){
     var altura = $('#header__navbar').offset().top;
     
     $(window).on('scroll', function(){
-        if ( $(window).scrollTop() > altura ){
+        if ( $(window).scrollTop() > altura){
             $('#header__navbar').addClass('navbar-fixed');
         } else{
             $('#header__navbar').removeClass('navbar-fixed');
