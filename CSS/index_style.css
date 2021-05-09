@@ -71,7 +71,7 @@ body{
 }
 
 .main__services{
-    background-color: #dfdbdb;
+    background-color: #fff;
     padding: 1em;
     width: 99%;
     margin: auto;
@@ -103,7 +103,7 @@ body{
     height: 70%;
     width: 80%;
     padding: 20px;
-}
+}*/
 
 .aboutus__text{
     height: 80%;
@@ -112,6 +112,7 @@ body{
     padding: 20px;
     letter-spacing: 1px;
 }
+
 
 .aboutus__descripcion img{
     height: 80%;
@@ -124,5 +125,4 @@ body{
     width: 100%;
 }
 
-*/
 

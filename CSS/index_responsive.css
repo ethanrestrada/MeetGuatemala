@@ -54,8 +54,8 @@
     }
 
     .main__services{
-        background-color: #fff;
         margin: auto;
+        padding-bottom: 3em;
         width: 99%;
     }
 
@@ -67,6 +67,14 @@
         justify-content: center;
         margin: 1em;
     }       
+
+    .services__airlines p{
+        font-size: 15px;
+    }
+
+    .services__restaurant p{
+        font-size: 14px;
+    }
 
     .main__aboutus{
         width: 99%;
