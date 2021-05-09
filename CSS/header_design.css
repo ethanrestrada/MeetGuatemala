@@ -70,7 +70,7 @@ hr{
 }
 
 .navbar__list li a:hover{
-    background: #1ad6d6;
+    background: #4875a1;
 }
 
 .header__menu-toggle{
@@ -149,5 +149,9 @@ hr{
         border-bottom: 1px solid #000;
         width: 100%;
         padding: 0;
+    }
+
+    .navbar__list li a:hover{
+        background: #4875a1;
     }
 }

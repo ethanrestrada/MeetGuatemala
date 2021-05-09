@@ -1,3 +1,6 @@
+@import url(./header_design.css);
+@import url(./index_style.css);
+
 @media screen and (max-width:700px){
 
     body{
@@ -7,19 +10,15 @@
         background-position-y: top;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        height: 100%;
     }
 
     .main__contenedor-vacio{
-        height: 40vh;
-        padding: 5em .2em;
+        height: 50vh;
     }
 
     .vacio__sign{
-        color: #fff;
-        letter-spacing: 2px;
         width: 100%;
-        padding: 15px;
+        margin-left: 0;
     }
 
     .vacio__sign h1{
@@ -33,9 +32,6 @@
     }
 
     .sign__boton{
-        background: transparent;
-        border-style: solid;
-        border-color: #fff;
         border-radius: 5px;
         padding: 10px;
         width: 45%;
@@ -49,20 +45,32 @@
         text-decoration: none;
         color: #fff;
         font-family: 'Zen Dots', cursive;
+        font-size: 13px;
+        letter-spacing: 1px;
     }
 
     .sign__boton:hover a{
         color: #000;
     }
 
-    .main__aboutus{
-        width: 96%;
+    .main__services{
+        background-color: #fff;
         margin: auto;
-        margin-bottom: 1em;
+        width: 99%;
     }
 
-    .aboutus__descripcion{
-        padding: 0;
+    .services__names{
+        flex-wrap: wrap;
+    }
+
+    .service{
+        justify-content: center;
+        margin: 1em;
+    }       
+
+    .main__aboutus{
+        width: 99%;
+        margin: auto;
     }
 
     .aboutus__descripcion img{
@@ -74,11 +82,17 @@
         font-size: 15px;
         height: 100%;
         width: 100%;
-        margin-right: 0;
+    }
+
+    .aboutus__text h1{
+        font-size: 24px;
     }
 
     .main__guatemala{
-        width: 96%;
+        width: 99%;
         margin: auto;
     }
+
+    
+
 }

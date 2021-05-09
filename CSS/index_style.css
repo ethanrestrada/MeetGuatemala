@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main{
+    height: 300vh;
+}
+
 body{
     font-family: 'Zen Dots', cursive;
     background-image: url(../IMG/guate-img.jpg);
@@ -15,20 +19,85 @@ body{
 }
 
 .main__contenedor-vacio{
-    height: 60vh; 
-    width: 100%;
-}
-
-.main__aboutus{
-    background-color: #F2F1F1;
-    height: 100vh;
+    height: 70vh; 
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.aboutus__descripcion{
+.vacio__sign{
+    color: #fff;
+    letter-spacing: 2px;
+    width: 70%;
+    padding: 15px;
+    margin-left: 5em;
+}
+
+.vacio__sign h1{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+.vacio__sign h3{
+    margin-bottom: .5em;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.sign__boton{
+    background: transparent;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.sign__boton:hover{
+    background-color: #fff;
+}
+
+.sign__boton a{
+    font-family: 'Zen Dots', cursive;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.sign__boton:hover a{
+    color: #000;
+}
+
+.main__services{
+    background-color: #dfdbdb;
+    padding: 1em;
+    width: 99%;
+    margin: auto;
+}
+
+.services__tittle{
+    width: 100%;
+    text-align: center;
+}
+
+.services__names{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services__img{
+    width: 80%;
+}
+
+.main__aboutus{
+    background-color: #fff;
+    width: 100%;
+}
+
+/*.aboutus__descripcion{
     display: flex;
     align-items: center;
     height: 70%;
@@ -37,7 +106,6 @@ body{
 }
 
 .aboutus__text{
-    background-color: #ece8e8;
     height: 80%;
     width: 50%;
     margin-right: 5em;
@@ -55,4 +123,6 @@ body{
     height: 100vh;
     width: 100%;
 }
+
+*/
 
