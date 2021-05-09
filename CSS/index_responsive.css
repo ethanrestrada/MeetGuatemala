@@ -1,0 +1,75 @@
+@media screen and (max-width:700px){
+
+    body{
+        background-image: url(../IMG/responsive-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .main__contenedor-vacio{
+        height: 40vh;
+        padding: 5em 1em;
+    }
+
+    .vacio__sign{
+        width: 100%;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .vacio__sign h1{
+        margin-bottom: 2px;
+        font-size: 16px;
+    }
+
+    .vacio__sign h3{
+        margin-bottom: .5em;
+        font-size: 12px;
+    }
+
+    .sign__boton{
+        background: transparent;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 10px;
+        width: 40%;
+    }
+
+    .sign__boton a{
+        text-decoration: none;
+        color: #332c2c;
+    }
+
+    .main__aboutus{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+    .aboutus__descripcion{
+        padding: 0;
+    }
+
+    .aboutus__descripcion img{
+        display: none;
+    }
+
+    .aboutus__text{
+        text-align: center;
+        font-size: 15px;
+        height: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main__guatemala{
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+}

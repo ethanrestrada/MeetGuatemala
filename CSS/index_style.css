@@ -9,22 +9,14 @@ body{
     background-image: url(../IMG/guate-img.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: top;
     background-size: cover;
 }
 
 .main__contenedor-vacio{
-    height: 80vh; 
+    height: 60vh; 
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main__tittle-2{
-    color: #fffafa;
-    text-align: center;
-    letter-spacing: 2px;
 }
 
 .main__aboutus{
@@ -64,48 +56,3 @@ body{
     width: 100%;
 }
 
-@media screen and (max-width:700px){
-
-    body{
-        background-image: url(../IMG/responsive-bg.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        height: 100%;
-    }
-
-    .main__contenedor-vacio{
-        text-align: center;
-        font-size: 10px;
-        height: 100vh;
-    }
-
-    .main__aboutus{
-        width: 90%;
-        margin: auto;
-        margin-bottom: 1em;
-    }
-
-    .aboutus__descripcion{
-        padding: 0;
-    }
-
-    .aboutus__descripcion img{
-        display: none;
-    }
-
-    .aboutus__text{
-        text-align: center;
-        font-size: 15px;
-        height: 100%;
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .main__guatemala{
-        width: 90%;
-        margin: auto;
-    }
-
-}
