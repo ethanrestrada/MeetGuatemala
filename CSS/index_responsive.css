@@ -12,10 +12,6 @@
         background-repeat: no-repeat;
     }
 
-    .main__contenedor-vacio{
-        height: 50vh;
-    }
-
     .vacio__sign{
         width: 100%;
         margin-left: 0;
@@ -55,7 +51,7 @@
 
     .main__services{
         margin: auto;
-        padding-bottom: 3em;
+        margin-bottom: 1em;
         width: 99%;
     }
 
@@ -79,6 +75,7 @@
     .main__aboutus{
         width: 99%;
         margin: auto;
+        margin-bottom: 1em;
     }
 
     .aboutus__descripcion img{

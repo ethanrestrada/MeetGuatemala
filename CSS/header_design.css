@@ -56,7 +56,7 @@ hr{
 
 .navbar__list li{
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .navbar__list li a{
@@ -81,11 +81,11 @@ hr{
     cursor: pointer;
 }
 
-.show{
-    height: 366px !important;
-}
+@media screen and (max-width:700px){
 
-@media screen and (max-width:800px){
+    .show{
+        height: 366px !important;
+    }
 
     .header__menu-toggle{
         display: block;
