@@ -1,15 +1,14 @@
 @media screen and (max-width:700px){
     main{
         background-image: url(../IMG/back-2.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
     }
 
     .main__form{
         width: 80%;
         border-radius: 10px;
-    }
-
-    .main__form-sigin{
-        height: 60vh;
     }
 
     .form__side-img{
