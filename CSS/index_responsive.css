@@ -1,6 +1,6 @@
 @import url(./header_design.css);
 
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
 
     body{
         background-image: url(../IMG/responsive-bg.jpg);
