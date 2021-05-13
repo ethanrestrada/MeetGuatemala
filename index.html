@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
     <title>MeetGuatemala | Inicio</title>
 </head>
 <body>
-    
+
     <header>
         <div class="header__logo">
             <img src="./IMG/guatemala-map.png" alt="Not found" class="logo__img">
@@ -34,7 +36,6 @@
                 <li><a href="hotels.html">Hoteles</a></li>
                 <li><a href="restaurants.html">Restaurantes</a></li>
                 <li><a href="sightseeing.html">Atracciones</a></li>
-                <li><a href="tourism.html">Agencias</a></li>
             </ul>        
         </nav>
         <div class="header__menu-toggle">
@@ -42,76 +43,82 @@
         </div>
     </header>
 
-    <main>
+      <main>
+        <div class="main__espace-between-header"></div>
+
         
-        <div class="main__contenedor-vacio">
-            <div class="vacio__sign">
+        <div class="main__account">
+            <div class="account__sign-options">
                 <h1>¿Quieres la mejor informacion para visitar Guatemala?</h1>
                 <h3>Mantente informado siempre</h3>
-                <button class="sign__boton"><a href="signin.html">Iniciar sesion</a></button>
-                <button class="sign__boton"><a href="signup.html">Registrate</a></button>
+                <a href="signup.html" class="option__sign-link signup">Registrate</a>
+                <a href="signin.html" class="option__sign-link" >Inicia Sesion</a>
             </div>
         </div>
 
         <div class="main__services">
-            <div class="services__tittle">
-                <h1>Servicios</h1>
+            <h1>Servicios</h1>
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+    
+                    <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <img src="IMG/airport_service.jpg" alt="Rock and Roll Hall of Fame">
+                            <p>Informacion de Aerolineas</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="IMG/hotel_service.jpg" alt="Constitution Square - Tower I">
+                            <p>Informacion de los mejores Hoteles</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="IMG/restaurant_service.jpg" alt="Empire State Building">
+                            <p>Informacion de los mejores Restaurantes</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="IMG/sightseeing_service.jpg" alt="Harmony Tower">
+                            <p>Informacion sobre los mejores lugares que puedes visitar</p>
+                        </div>
+                    </div>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+    
+                <div role="tablist" class="carousel__indicadores"></div>
             </div>
+        </div>
 
-            <div class="services__names">
-                <div class="services__airlines service">
-                    <img src="./IMG/airline.jpg" alt="" class="services__img">
-                    <p>Informacion sobre Aerolineas</p>
-                </div>
-    
-                <div class="services__hotel service">
-                    <img src="./IMG/hotel.jpg" alt="" class="services__img">
-                    <p>Informacion sobre Hoteles</p>
-                </div>
-    
-                <div class="services__restaurant service">
-                    <img src="./IMG/restaurant.jpg" alt="" class="services__img">
-                    <p>Informacion sobre Restaurantes</p>
-                </div>
-    
-                <div class="services__attractions service">
-                    <img src="./IMG/attraction.jpg" alt="" class="services__img">
-                    <p>Informacion sobre Lugares Turisticos</p>
-                </div>
-    
-                <div class="services__turism service">
-                    <img src="./IMG/turism.jpg" alt="" class="services__img">
-                    <p>Informacion sobre Agencias de Turismo</p>
-                </div>
-    
+        <div class="main__aboutus">
+        <div class="aboutus__information">
+            <h1>¿Quienes somos?</h1><br>
+            <p>Somos una organización que tiene el fin de ayudarte en tu visita a Guatemala 
+                mostrándote la mejor información recopilada y que necesitas saber si tienes 
+                pensado viajar a este hermoso país. En MeetGuatemala estamos orgullosos de las 
+                bellezas que tiene nuestro amado país, y nuestro anhelo es que tú puedas asombrarte 
+                con ellas.</p>
+        </div>
+        </div>
+
+        <div class="main__why-visit-guatemala">
+            <div class="why-guatemala__information">
+
             </div>
+        </div>
+
+        <div class="main__form">
             
         </div>
 
 
-        <div class="main__aboutus">
-            <div class="aboutus__descripcion">
-                <div class="aboutus__text">
-                    <h1>¿Quienes somos?</h1><br>
-                    <p>
-                        Somos una organización que tiene el fin de ayudarte en tu visita a Guatemala 
-                        mostrándote la mejor información recopilada y que necesitas saber si tienes 
-                        pensado viajar a este hermoso país. En MeetGuatemala estamos orgullosos de las 
-                        bellezas que tiene nuestro amado país, y nuestro anhelo es que tú puedas asombrarte 
-                        con ellas.
-                    </p>
-                </div>
-                <img src="./IMG/piramide-tikal.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="main__guatemala">
-
-        </div>
-
 
     </main>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="./JavaScript/carrusel.js"></script>
     <script src="./JavaScript/navbarmenu.js"></script>
 </body>
 </html>
