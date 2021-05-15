@@ -1,0 +1,30 @@
+@media screen and (max-width:768px){    
+    
+    main{
+        column-count: 1;
+    }
+
+    .space_between_header{
+        display: block;
+        height: 3em;
+    }
+
+    #hotel-container{
+        margin-bottom: 1em;
+    }
+
+    .hotel-1__information{
+        flex-wrap: wrap;
+    }
+
+    .information__left-section{
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    .information__right-section{
+        width: 100%;
+        margin-bottom: 0.4em;
+    }
+
+}

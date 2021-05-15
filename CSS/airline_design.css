@@ -1,4 +1,73 @@
+@import url(./header_design.css);
+@import url(./carousel_services_design.css);
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+body{
+    font-family: 'Zen Dots', cursive;
+    background-color: #e0dede;
+}
+
+main{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 6em;
+    padding: 2em;
+}
+
+.space_between_header{
+    display: none;
+}
+
+#hotel-container{
+    background-color: #fff;
+    margin-bottom: 2.5em;
+}
+
+.hotel-1__information{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.information__left-section{
+    text-align: justify;
+    width: 50%;
+    margin-bottom: 0.4em;
+}
+
+.information__left-section p{
+    font-size: 0.8em;
+}
+
+.information__right-section{
+    background-color: #b9b5b5;
+    height: 1em;
+    width: 40%;
+}
+
+.section-right__social-media{
+    background-color: teal;
+}
+
+.information__map{
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+}
+
+.information__map iframe{
+    width: 100%;
+}
+
+
+
+
+
+

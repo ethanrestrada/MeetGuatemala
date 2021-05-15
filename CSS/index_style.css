@@ -12,6 +12,10 @@ body{
     height: 300vh;
 }
 
+.main__espace-between-header{
+    display: none;
+}
+
 .main__account{
     background-image: url(../IMG/account_background.jpg);
     background-repeat: no-repeat;
@@ -80,6 +84,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 2em;
+    height: 80vh;
 }
 
 .aboutus__information{

@@ -1,0 +1,75 @@
+.carousel{
+    background-color: brown;
+}
+
+.carousel__contenedor {
+	position: relative;
+}  
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 1.8em;
+	height: 60px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+    text-align: center;
+	background: none;
+	color: #fff;
+    z-index: 1;
+    background-color: #23272a88;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: 0;
+}
+
+.carousel__siguiente {
+	right: 0;
+}
+
+.carousel__lista{
+	overflow: hidden;
+    height: 100%;
+}
+
+.carousel__elemento {
+	text-align: center;
+    height: 100%;
+}
+
+.elemento__imagen-1{
+    background-image: url(../IMG/adriatika_hotel_2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.carousel__indicadores .glider-dot {
+    display: nones;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+
+    .carousel{
+        height: auto;
+    }
+}
