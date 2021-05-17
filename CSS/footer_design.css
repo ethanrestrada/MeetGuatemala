@@ -1,0 +1,120 @@
+footer{
+    background-color: #6789ac;
+    display: grid;
+    grid-template-columns: 45% 15% 25%;
+    column-rule: 4px solid #000;
+    gap: 2em;
+    padding: 2em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form h1{
+    margin-bottom: 0.2em;
+    text-align: center;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.form__input{
+    margin: 0.2em;
+    outline: none;
+    padding: 0.6em;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 3px;
+    width: 50%;
+    border-right-color: 2px solid #000;
+    border-right-style: solid;
+    font-family: 'Zen Dots', cursive;
+}
+
+.form__input:focus {
+    background-color:  #f5f4f4;
+}
+
+.footer__index{
+    padding: 1.2em;
+    text-align: center;
+}
+
+.footer__index a{
+    display: block;
+    margin: 0.3em;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__social-media{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 6em;
+}
+
+.footer__social-media img{
+    height: 32px;
+    width: 32px;
+}
+
+#media-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.media__text{
+    margin-left: 0.7em;
+}
+
+.form__media-responsive{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    
+    footer{
+        grid-template-columns: 90%;
+        justify-content: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .form__input{
+        width: 100%;
+    }
+
+    .footer__social-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__social-media img{
+        margin: 1em;
+        height: 28px;
+        width: 28px;
+    }
+
+    .footer__social-media{
+        display: none;
+    }
+
+    .form__media-responsive{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form__media-responsive img{
+        height: 28px;
+        width: 28px;
+        margin-right: 2em;
+    }
+
+}

@@ -41,7 +41,9 @@
         color: #000;
     }
 
-
-
+    .main__aboutus{
+        grid-template-columns: 90%;
+        gap: 2em;
+    }
 
 }

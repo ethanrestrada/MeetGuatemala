@@ -1,7 +1,3 @@
-.carousel{
-    background-color: brown;
-}
-
 .carousel__contenedor {
 	position: relative;
 }  
@@ -44,15 +40,11 @@
 .carousel__elemento {
 	text-align: center;
     height: 100%;
+	width: 100%;
 }
 
-.elemento__imagen-1{
-    background-image: url(../IMG/adriatika_hotel_2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    z-index: 100;
+.carousel__elemento img{
+	width: 100%;
 }
 
 .carousel__indicadores .glider-dot {

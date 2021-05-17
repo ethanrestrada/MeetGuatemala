@@ -1,0 +1,98 @@
+@import url(./header_design.css);
+@import url(./footer_design.css);
+@import url(./carousel_services_design.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zen Dots', cursive;
+    background-color: #e0dede;
+}
+
+.tittle{
+    margin: auto;
+    margin-top: 1.5em;
+    width: 30%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 46% 46%;
+    gap: 3em;
+    justify-content: center;
+    padding: 2em;
+}
+
+.space_between_header{
+    display: none;
+}
+
+#main__service{
+    background-color: #fff;
+}
+
+.service__information{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.information__top-section{
+    text-align: justify;
+    margin-bottom: 0.4em;
+    width: 99%;
+}
+
+.information__top-section h4{
+    letter-spacing: 0.1em;
+}
+
+.information__top-section p{
+    font-size: 0.8em;
+}
+
+.information__bottom-section span{
+    font-size: 0.8em;
+}
+
+.information__bottom-section a{
+    color: #000;
+}
+
+@media screen and (max-width:768px){    
+
+    .space_between_header{
+        display: block;
+        height: 3em;
+    }
+    
+    .tittle{
+        margin-top: 2em;
+        width: 75%;
+    }
+
+    .tittle h1{
+        font-size: 2em;
+    }
+
+    main{
+        grid-template-columns: 95%;
+        grid-gap: 2em;
+    }
+
+    .service__information{
+        flex-wrap: wrap;
+    }
+
+    .information__top-section{
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+}

@@ -1,0 +1,167 @@
+@import url(./header_design.css);
+@import url(./footer_design.css);
+@import url(./carousel_services_design.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zen Dots', cursive;
+    background-color: #e0dede;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 3em;
+    justify-content: center;
+    padding: 2em;
+}
+
+.tittle{
+    margin: auto;
+    margin-top: 1.5em;
+    width: 12%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.space_between_header{
+    display: none;
+}
+
+#main__service{
+    background-color: #fff;
+}
+
+.service__information{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.information__left-section{
+    text-align: justify;
+    margin-bottom: 0.4em;
+    width: 55%;
+}
+
+.information__left-section p{
+    font-size: 0.8em;
+}
+
+.information__right-section{
+    width: 40%;
+}
+
+.section-right__hotel-url{
+    margin-bottom: 0.3em;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-right__hotel-url a{
+    font-size: 1em;
+    color: #000;
+}
+
+.section-right__social-media{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media__tooltip{
+    position: relative;
+    margin: 0.5em;
+}
+
+.social-media__tooltip img{
+    height: 38px;
+    width: 38px;
+}
+
+.social-media__tooltip:hover .tooltip__tooltip-box{
+	display: block;
+}
+
+.tooltip__tooltip-box{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 0px #00000098;
+    border-radius: 5px;
+    color: #000;
+    white-space: nowrap;
+    padding: 0.3em;
+    display: none;
+    bottom: 50px;
+    z-index: 100;
+}
+
+.tooltip__tooltip-box::after{
+    display: block;
+    content: "";
+	border-top: 7px solid #fff;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;
+}
+
+@media screen and (max-width:768px){    
+    
+    main{
+        grid-template-columns: 90%;
+        grid-gap: 2em;
+    }
+
+    .space_between_header{
+        display: block;
+        height: 3em;
+    }
+
+    .tittle{
+        margin-top: 2em;
+        width: 45%;
+    }
+
+    .tittle h1{
+        font-size: 2em;
+    }
+
+    .service__information{
+        flex-wrap: wrap;
+    }
+
+    .information__left-section{
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    .information__right-section{
+        width: 100%;
+        margin-bottom: 0.4em;
+    }
+
+    .section-right__hotel-url{
+        height: auto;
+    }
+
+    .section-right__social-media{
+        height: auto;
+    }
+}
+
+
+
+
+

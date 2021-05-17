@@ -6,21 +6,17 @@
 .carousel__siguiente {
 	position: absolute;
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 1.8em;
+	height: 60px;
 	border: none;
 	top: calc(50% - 35px);
 	cursor: pointer;
 	line-height: 30px;
-	text-align: center;
+    text-align: center;
 	background: none;
-	color: #000;
-	opacity: 20%;
-}
-
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-	opacity: 100%;
+	color: #fff;
+    z-index: 1;
+    background-color: #23272a88;
 }
 
 .carousel__anterior:hover,
@@ -29,11 +25,11 @@
 }
 
 .carousel__anterior {
-	left: -34px;
+	left: -30px;
 }
 
 .carousel__siguiente {
-	right: -34px;
+	right: -30px;
 }
 
 .carousel__lista {
@@ -43,6 +39,8 @@
 .carousel__elemento {
 	text-align: center;
 }
+
+
 
 .carousel__indicadores .glider-dot {
 	display: block;
@@ -62,7 +60,10 @@
 }
 
 @media screen and (max-width: 800px) {
-	
+	body {
+		padding: 40px 0;
+	}
+
 	.contenido-principal {
 		flex-direction: column;
 	}

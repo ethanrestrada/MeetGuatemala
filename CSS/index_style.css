@@ -1,5 +1,5 @@
 @import url(./header_design.css);
-@import url(./carrousel_design.css);
+@import url(./carrousel_index.css);
 
 *{
     margin: 0;
@@ -69,25 +69,29 @@ body{
     color: #000;
 }
 
+.main__aboutus{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4em;
+    justify-content: center;
+    padding: 2em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.aboutus__who-we-are,
+.aboutus__mision,
+.aboutus__vision{
+    text-align: center;
+}
+
 .main__services{
     background-color: #f5f5f5;
     padding: 2.5em;
 }
 
 .main__services h1{
-    text-align: center;
-}
-
-.main__aboutus{
-    background-color: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
-    height: 80vh;
-}
-
-.aboutus__information{
     text-align: center;
 }
 
