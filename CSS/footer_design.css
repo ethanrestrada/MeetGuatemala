@@ -109,6 +109,7 @@ form h1{
         display: block;
         display: flex;
         justify-content: center;
+        padding-left: 0;
     }
 
     .form__media-responsive img{

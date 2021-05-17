@@ -8,10 +8,6 @@
     font-family: 'Zen Dots', cursive;
 }
 
-body{
-    height: 300vh;
-}
-
 .main__espace-between-header{
     display: none;
 }
@@ -116,12 +112,3 @@ body{
     height: 70vh;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-

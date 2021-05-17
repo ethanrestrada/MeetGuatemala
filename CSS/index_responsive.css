@@ -1,6 +1,8 @@
 @media screen and (max-width:768px){
     .main__espace-between-header{
+        display: block;
         height: 60px;
+        background-color: aqua;
     }
 
     .main__account{
