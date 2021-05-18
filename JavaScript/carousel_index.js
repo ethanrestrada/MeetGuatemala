@@ -20,7 +20,7 @@ window.addEventListener('load', function(){
 			}
 			},{
 			  // screens greater than >= 800px
-			breakpoint: 800,
+			breakpoint: 768,
 			settings: {
 				rewind: true,
 				slidesToShow: 1,
