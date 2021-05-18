@@ -9,27 +9,27 @@
 	width: 1.8em;
 	height: 60px;
 	border: none;
-	top: calc(50% - 35px);
+	top: calc(50% - 60px);
 	cursor: pointer;
 	line-height: 30px;
     text-align: center;
+	font-size: 1.5em;
 	background: none;
-	color: #fff;
+	color: #000;
     z-index: 1;
-    background-color: #23272a88;
 }
 
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
-	opacity: 100%;
+	color: #333333;
 }
 
 .carousel__anterior {
-	left: -30px;
+	left: 50px;
 }
 
 .carousel__siguiente {
-	right: -30px;
+	right: 50px;
 }
 
 .carousel__lista {
@@ -40,7 +40,10 @@
 	text-align: center;
 }
 
-
+.carousel__elemento img{
+	height: 90%;
+	width: 50%;
+}
 
 .carousel__indicadores .glider-dot {
 	display: block;
@@ -66,5 +69,23 @@
 
 	.contenido-principal > * {
 		width: 100%;
+	}
+
+	.carousel__anterior,
+	.carousel__siguiente{
+		font-size: 1em;
+	}
+
+	.carousel__anterior{
+		left: -40px;
+	}
+
+	.carousel__siguiente{
+		right: -40px;
+	}
+
+	.carousel__elemento img{
+		height: auto;
+		width: auto;
 	}
 }

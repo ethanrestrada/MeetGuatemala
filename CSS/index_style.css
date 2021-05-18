@@ -1,4 +1,5 @@
 @import url(./header_design.css);
+@import url(./footer_design.css);
 @import url(./carrousel_index.css);
 
 *{
@@ -17,7 +18,8 @@
     background-repeat: no-repeat;
     background-size: cover  ;
     background-attachment: fixed;
-    min-height: 40vh;
+    background-position-y: top;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,7 +45,11 @@
     font-size: 1.2em;
 }
 
-.account__sign-options h3, a{
+.account__sign-options h3{
+    letter-spacing: 0.1em;
+}
+
+.account__sign-options a{
     letter-spacing: 0.1em;
 }
 
@@ -83,7 +89,7 @@
 }
 
 .main__services{
-    background-color: #f5f5f5;
+    background-color: #d6d6d6;
     padding: 2.5em;
 }
 
@@ -102,13 +108,16 @@
 }
 
 .why-guatemala__information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 80vh;
     width: 100%;
     background-color: #23272ab9;
 }
 
-.main__form{
-    background-color: #6789ac;
-    height: 70vh;
-    width: 100%;
+.information__text{
+    width: 50%;
+    color: #fff;
+    text-align: center;
 }

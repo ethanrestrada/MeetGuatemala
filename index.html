@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -43,7 +42,6 @@
         </div>
     </header>
 
-
     <main>
         <div class="main__espace-between-header"></div>
 
@@ -67,19 +65,17 @@
             </div>
             <div class="aboutus__mision">
                 <h1>Mision</h1><br>
-                <p>Somos una organización que tiene el fin de ayudarte en tu visita a Guatemala 
-                    mostrándote la mejor información recopilada y que necesitas saber si tienes 
-                    pensado viajar a este hermoso país. En MeetGuatemala estamos orgullosos de las 
-                    bellezas que tiene nuestro amado país, y nuestro anhelo es que tú puedas asombrarte 
-                    con ellas.</p>
+                <p>Brindar la mejor información a todos los viajeros interesados por conocer las maravillas 
+                    de Guatemala. Poder reducir tu tiempo de búsqueda entre tantas paginas y recopilar la 
+                    información sobre las aventuras que sin duda captaran tu atención y te harán decidirte 
+                    venir a conocer nuestras tierras.</p>
             </div>
             <div class="aboutus__vision">
                 <h1>Vision</h1><br>
-                <p>Somos una organización que tiene el fin de ayudarte en tu visita a Guatemala 
-                    mostrándote la mejor información recopilada y que necesitas saber si tienes 
-                    pensado viajar a este hermoso país. En MeetGuatemala estamos orgullosos de las 
-                    bellezas que tiene nuestro amado país, y nuestro anhelo es que tú puedas asombrarte 
-                    con ellas.</p>
+                <p>Queremos que en la visión del mundo se alce Guatemala, ya para ello queremos que conozcas 
+                    nuestras maravillas y regreses a tu casa con la mejor experiencia en el país posible. Nuestro 
+                    anhelo es que puedas disfrutar de la esencia de nuestros sabores, paisajes y cultura en los mejores 
+                    lugares posibles.</p>
             </div>
         </div>
 
@@ -88,25 +84,28 @@
             <div class="carousel">
                 <div class="carousel__contenedor">
                     <button aria-label="Anterior" class="carousel__anterior">
-                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-left fa-lg fa-fw"></i>
                     </button>
                     <div class="carousel__lista">
                         <div class="carousel__elemento">
-                            <img src="IMG/airport_service.jpg" alt="Rock and Roll Hall of Fame">
-                            <p></p>
+                            <img src="IMG/airport_service.jpg" alt="Airport_service">
+                            <p>¡Informacion sobre las mejores aerolineas que ofrecen los mejores vuelos!</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="IMG/hotel_service.jpg" alt="Constitution Square - Tower I">
+                            <img src="IMG/hotel_service.jpg" alt="Hotel_service">
+                            <p>¡Informacion sobre los mejores hoteles para quedarse!</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="IMG/restaurant_service.jpg" alt="Constitution Square - Tower I">
+                            <img src="IMG/restaurant_service.jpg" alt="Restaurant_service">
+                            <p>¡Lo mejor de restaurantes de Guatemala!</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="IMG/sightseeing_service.jpg" alt="Constitution Square - Tower I">
+                            <img src="IMG/sightseeing_service.jpg" alt="Sightseeing_service">
+                            <p>¡Los mejores lugares que puedes visitar!</p>
                         </div>
                     </div>
                     <button aria-label="Siguiente" class="carousel__siguiente">
-                        <i class="fas fa-chevron-right"></i>
+                        <i class="fas fa-chevron-right fa-lg fa-fw"></i>
                     </button>
                 </div>
                 <div role="tablist" class="carousel__indicadores"></div>
@@ -115,15 +114,64 @@
 
         <div class="main__why-visit-guatemala">
             <div class="why-guatemala__information">
-
+                <div class="information__text">
+                <h1>¿Por que deberias visitar Guatemala?</h1><br>
+                <p>
+                    Guatemala es vista como un destino único y diferente por su diversidad 
+                    de experiencias. Su territorio inigualable, reúnen cultura maya, ruinas mayas, 
+                    herencia colonial española, edificios modernos, playas exóticas del Caribe y 
+                    Pacífico, y todo esto en un solo lugar. A esta belleza se le suma la gente guatemalteca, 
+                    quienes son amistosos y hospitalarios por tradición. Por todas estas razones, el viajero tendrá 
+                    una experiencia inolvidable durante su estancia en Guatemala.
+                </p>
+                </div>
             </div>
         </div>
 
-    
     </main>
     
+    <footer>
+        <div class="footer__form">
+            <form action="">
+                <h1>¿Quieres saber mas?</h1><br>    
+                <input type="text" name="" class="form__input" placeholder="Asunto">
+                <input type="email" name="" class="form__input" placeholder="Correo electronico">
+                <textarea name="" class="form__input" cols="22" rows="5" placeholder="Tu mensaje"></textarea>
+                <input type="submit" value="Enviar" class="form__input">
+            </form>
+        </div>
+
+        <div class="footer__index">
+            <a href="index.html">Inicio</a><br>
+            <a href="hotels.html">Hoteles</a><br>   
+            <a href="airlines.html">Aerolineas</a><br>
+            <a href="restaurants.html">Restaurantes</a><br>
+            <a href="sightseeing.html">Atracciones</a>
+        </div>
+
+        <div class="footer__social-media">
+            <div class="social-media__facebook" id="media-container">
+                <img src="./IMG/facebook_icon.png" alt="Facebook">
+                <span class="media__text">Facebook</span>
+            </div>
+            <div class="social-media__instagram" id="media-container">
+                <img src="./IMG/instagram_icon.png" alt="Instagram">
+                <span class="media__text">Instagram</span>
+            </div>
+            <div class="social-media__twitter" id="media-container">
+                <img src="./IMG/twitter_icon.png" alt="Twitter">
+                <span class="media__text">Twitter</span>
+            </div>
+        </div>
+        <div class="form__media-responsive">
+            <img src="./IMG/facebook_icon.png" alt="Facebook">
+            <img src="./IMG/instagram_icon.png" alt="Instagram">
+            <img src="./IMG/twitter_icon.png" alt="Twitter">
+        </div>
+
+    </footer> 
+
 	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="./JavaScript/carousel_index.js"></script>
     <script src="./JavaScript/navbarmenu.js"></script>
 </body>

@@ -13,6 +13,7 @@
 	cursor: pointer;
 	line-height: 30px;
     text-align: center;
+	font-size: 1em;
 	background: none;
 	color: #fff;
     z-index: 1;
@@ -64,4 +65,9 @@
     .carousel{
         height: auto;
     }
+
+	.carousel__anterior,
+	.carousel__siguiente{
+		font-size: 0.8em;
+	}
 }

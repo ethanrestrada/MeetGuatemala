@@ -147,6 +147,10 @@ main{
         margin-bottom: 0.5em;
     }
 
+    .information__left-section h4{
+        text-align: start;
+    }
+
     .information__right-section{
         width: 100%;
         margin-bottom: 0.4em;

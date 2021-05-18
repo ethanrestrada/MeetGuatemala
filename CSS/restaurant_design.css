@@ -175,6 +175,10 @@ main{
         grid-gap: 2em;
     }
 
+    .information__top-section h4{
+        text-align: start;
+    }
+
     .information__top-section p{
         font-size: 0.8em;
     }

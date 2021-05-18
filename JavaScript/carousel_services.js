@@ -14,7 +14,27 @@ gliders.forEach((glide) => {
 		arrows: {
 		prev: gliderPrev,
 		next: gliderNext
-		}
+		},
+		responsive: [
+			{
+			  // screens greater than >= 445px
+			breakpoint: 450,
+			settings: {
+				// Set to `auto` and provide item width to adjust to viewport
+				rewind: true,
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+			},{
+			  // screens greater than >= 800px
+			breakpoint: 768,
+			settings: {
+				rewind: true,
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+			}
+		]
 	});
 	
 });

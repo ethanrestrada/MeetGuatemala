@@ -16,7 +16,7 @@ body{
 .tittle{
     margin: auto;
     margin-top: 1.5em;
-    width: 16%;
+    width: 30%;
     border-bottom: 2px solid #000;
     text-align: center;
 }
@@ -54,104 +54,15 @@ main{
     letter-spacing: 0.1em;
 }
 
-.information__top-section p{
-    text-align: justify;
-    font-size: 0.9em;
-}
-
 .information__bottom-section{
-    width: 99%;
+    display: grid;
+    grid-template-columns: 55% 52%;
+    gap: 1em;
 }
 
-.section-bottom__restaurant-url{
-    width: 100%;
-}
-
-.section-bottom__restaurant-url a{
-    font-size: 1em;
-    color: #000;
-}
-
-.section-bottom__food-information span{
-    font-size: 0.9em;
-    line-height: 18px;
-}
-
-.section-bottom__social-media{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-media__tooltip{
-    position: relative;
-    margin: 0.5em;
-}
-
-.social-media__tooltip img{
-    height: 38px;
-    width: 38px;
-    cursor: pointer;
-}
-
-.social-media__tooltip{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.social-media__tooltip:hover .tooltip__tooltip-box{
-	display: block;
-}
-
-.social-media__tooltip:hover .tooltip__tooltip-box-url{
-    display: block;
-}
-
-.tooltip__tooltip-box,
-.tooltip__tooltip-box-url{
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0px 2px 2px 0px #00000098;
-    border-radius: 5px;
-    color: #000;
-    white-space: nowrap;
-    padding: 0.3em;
-    display: none;
-    bottom: 50px;
-    z-index: 100;
-}
-
-.tooltip__tooltip-box-url{
-    left: -25px;
-    bottom: 50px;
-    text-align: center;
-}
-
-#sitio-2{
-    bottom: 75px;
-}
-
-.tooltip__tooltip-box::after{    
-    display: block;
-    content: "";
-	border-top: 10px solid #fff;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	position: absolute;
-	bottom: -10px;
-    left: 8px;
-}
-
-.tooltip__tooltip-box-url::after{
-    display: block;
-    content: "";
-	border-top: 10px solid #fff;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	position: absolute;
-	bottom: -10px;
-    left: calc(50% - 10px);
+.destiny__text{
+    font-size: 0.8em;
+    margin-left: 2em;
 }
 
 @media screen and (max-width:768px){    
@@ -179,7 +90,25 @@ main{
         font-size: 0.8em;
     }
 
-    .section-bottom__food-information span{
+    .information__top-section h4{
+        font-size: 0.9em;
+        text-align: start;
+    }
+
+    .information__bottom-section{
+        grid-template-columns: 100%;
+    }
+
+    .information__left-section{
+        padding-left: 0.8em;
+    }
+
+    .destiny__tittle{
         font-size: 0.8em;
     }
+
+    .information-right-section span{
+        font-size: 0.8em;
+    }
+
 }

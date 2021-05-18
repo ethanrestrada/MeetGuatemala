@@ -71,6 +71,7 @@ hr{
 
 .navbar__list li a:hover{
     background: #4875a1;
+    border-radius: 5px;
 }
 
 .header__menu-toggle{
